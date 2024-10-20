@@ -33,3 +33,10 @@ sizeSelector.addEventListener("change", (event) => {
 sizeSelector.addEventListener("change", updatePurchaseButton);
 
 updatePurchaseButton();
+
+// Task 4: Create a Checkout Event
+// We will now make the purchase button effective and create an alert when a purchase is made.
+
+purchaseButton.addEventListener("click", (event) => {
+    alert('Your purchase has been completed!');
+}) 
